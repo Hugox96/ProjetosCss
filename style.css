@@ -1,0 +1,117 @@
+/* Meu primeiro arquivo css */
+
+/*Mudando as caracteristicas do texto com paragráfo*/
+p {
+    color:white; 	
+    font-size:20px;
+	font-family:Helvetica;
+	text-shadow: 3px 1px 3px #111111;
+}
+
+/*Estrutura da página*/  
+body {
+  background-color:black;	
+  height: 400px;
+  min-height: 340px;
+     } 
+	 	 
+/*espaçamento do texto*/ 
+*{
+	margin: 1;
+	padding: 0;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+  	
+/*Cabeçalho*/ 	
+header {
+	background-color: #000000;
+    height: 80px;
+	padding: 2px;
+	
+	}	
+	
+/*Rodapé*/ 		
+footer{
+   clear: both;
+   font-size: 20px;
+   text-shadow: 1px 0px 1px #6495ED;
+   color:  #6495ED;
+   background-color: rgba(112, 128, 144, 0);
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   padding: 2px;
+   bottom: 0;
+   } 
+   
+   /*Título*/ 		
+h1 {
+	color: #6495ED;
+	text-shadow: 10px 10px 10px #111111;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 50px 0;
+   }
+
+/*Facilitador para organizar informações dentro de um layout*/
+#Div_Principal
+{  
+    background-image: url('background.jpg');
+	clear: both;
+	background-color: black;
+	background-size: 99.5%;
+	min-height: 400px;
+	padding: 100px;
+
+}
+
+
+/*As ids são uma forma de identificar um elemento, e devem ser ÚNICAS para cada elemento./*
+
+/*Id para editar o logo*/
+#logo 
+{
+	float: left;
+	margin-bottom: 22px;
+}
+	
+
+/*Id para editar o menu*/	
+#menu 
+{ 
+  float: right;
+  margin-top: 40px;
+}
+
+/*Id para editar links*/
+#menu a{
+
+margin: 15px;	
+text-decoration: none;
+color: #6495ED;
+text-shadow: 1px 1px 1 px #111111;	
+}
+
+
+#menu a:hover{
+	background-color: black;
+	color: 	#0000CD;
+	padding: 10px;
+}
+	
+/*As classes são uma forma de identificar um grupo de elementos. 
+Através delas, pode-se atribuir formatação a VÁRIOS elementos de uma vez.*/ 
+
+/*class*/
+.container {
+	width:  1000px;
+	margin:  auto;
+            }
+			
+/*class*/			
+.efeitos
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;  
+}	
